@@ -1,0 +1,27 @@
+/* Root container styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*Table size and border*/
+.App-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Table header and table data cell styles */
+.App-th, .App-td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(172, 161, 214);
+}
+
+/* Table header background color */
+.App-th {
+  background-color: #f2f2f2;
+}
+
